@@ -24,12 +24,40 @@ dependencies: []
 ## 使用场景
 
 **Trigger**: 
-- `/evolve`
+- `/evolve` 或 `/自更新`
 - "复盘一下刚才的对话"
 - "我觉得刚才那个工具不太好用，记录一下"
 - "把这个经验保存到 Skill 里"
+- "自更新"
+
+**说明**: `/evolve` 和 `/自更新` 是等价的触发方式，都用于在对话结束后复盘并优化 Skills。
 
 ## 工作流 (The Evolution Workflow)
+
+### 0. 自更新触发 (Self-Update Trigger)
+
+当用户使用 `/自更新` 时，执行以下 4 步逻辑：
+
+1. **搜索最近使用的 Skill**
+   - 扫描当前对话历史，识别本次会话中调用了哪些 Skills
+   - 按调用时间排序，找出最近使用的 Skill（通常是最后一个被调用的）
+
+2. **对比使用过程，识别优化点**
+   - 分析用户与该 Skill 的交互过程
+   - 找出：
+     - 用户明确表达的不满意（"这个不对"、"太慢了"、"格式错了"）
+     - 用户明确的满意（"很好"、"这正是我想要的"）
+     - 隐式反馈（重复修改、多次尝试才成功）
+   - 对比 Skill 当前指导 vs 实际最佳实践
+
+3. **定位对应位置**
+   - 检查该 Skill 的 `SKILL.md` 结构
+   - 确定优化建议应该写入哪个章节（如 `## When to Use`、`## Workflow`、`## Best Practices`）
+
+4. **智能更新**
+   - 生成结构化经验数据（JSON 格式）
+   - 调用 `merge_evolution.py` 保存到 `evolution.json`
+   - 调用 `smart_stitch.py` 将经验缝合到 `SKILL.md` 的 `## User-Learned Best Practices & Constraints` 章节
 
 ### 1. 经验复盘 (Review & Extract)
 当用户触发复盘时，Agent 必须执行：
