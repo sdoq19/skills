@@ -6,11 +6,7 @@
 
 告诉 Claude：**"帮我备份 skills"**
 
-或者手动执行：
-```bash
-cd /e/java/workspace_own/skills
-./backup.sh
-```
+通过 `backup-skills` skill 自动执行：复制 skills → 更新 README → 提交 → 推送到 GitHub
 
 ---
 
@@ -76,10 +72,4 @@ cd /e/java/workspace_own/skills
 |-------|------|
 | **duan-yongping-invest-skill** | 段永平风格投资备忘录生成器，基于好生意+好人+好价格评估 |
 
----
-
-## 仓库信息
-
-- **本地路径**: `E:\java\workspace_own\skills`
-- **远程仓库**: https://github.com/sdoq19/skills
-- **最后更新**: 2026-02-03
+**最后更新**: 2026-02-03
