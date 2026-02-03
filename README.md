@@ -37,6 +37,10 @@
 | **skill-manager** | GitHub-based skills 生命周期管理器 |
 | **skill-evolution-manager** | 根据对话反馈持续演进和优化现有 skills |
 | **github-to-skills** | 自动将 GitHub 仓库转换为 Claude skill 的工具 |
+| **skill-from-github** | 从 GitHub 仓库获取并转换为 Claude skill |
+| **skill-from-masters** | 从大师学习的综合技能，包含方法论数据库和技能分类法 |
+| **skill-from-notebook** | 将 Jupyter notebooks 转换为 Claude skills |
+| **search-skill** | 搜索功能和信息检索技能 |
 | **template-skill** | 创建新 skill 的模板 |
 | **backup-skills** | 自动化备份所有 skills 到 GitHub 仓库 |
 
