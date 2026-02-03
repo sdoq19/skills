@@ -43,7 +43,26 @@ cd /e/java/workspace_own/skills
 | **github-to-skills** | 自动将 GitHub 仓库转换为 Claude skill 的工具 |
 | **template-skill** | 创建新 skill 的模板 |
 
-### 💻 开发工具类
+### 💻 开发工作流类 (Superpowers)
+
+| Skill | 用途 |
+|-------|------|
+| **brainstorming** | 编码前的设计思考和需求探索（Socratic 对话） |
+| **writing-plans** | 创建详细的实现计划（每项任务 2-5 分钟） |
+| **executing-plans** | 批量执行计划，带有人工检查点 |
+| **subagent-driven-development** | 子代理驱动开发，快速迭代 |
+| **test-driven-development** | 真正的 TDD（红-绿-重构循环） |
+| **systematic-debugging** | 系统化调试（4 阶段根本原因分析） |
+| **verification-before-completion** | 完成前的验证（必须有证据） |
+| **requesting-code-review** | 请求代码审查前的检查清单 |
+| **receiving-code-review** | 接收代码审查反馈（技术要求而非社交表演） |
+| **using-git-worktrees** | 使用 Git 工作树进行并行开发 |
+| **finishing-a-development-branch** | 完成开发分支（合并/PR/保留/丢弃决策） |
+| **dispatching-parallel-agents** | 并行代理工作流 |
+| **using-superpowers** | 技能系统使用指南 |
+| **writing-skills** | 创建新技能的最佳实践 |
+
+### 🔧 开发工具类
 
 | Skill | 用途 |
 |-------|------|
@@ -62,4 +81,4 @@ cd /e/java/workspace_own/skills
 
 - **本地路径**: `E:\java\workspace_own\skills`
 - **远程仓库**: https://github.com/sdoq19/skills
-- **最后更新**: 2025-02-03
+- **最后更新**: 2026-02-03
