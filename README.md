@@ -42,6 +42,7 @@ cd /e/java/workspace_own/skills
 | **skill-evolution-manager** | 根据对话反馈持续演进和优化现有 skills |
 | **github-to-skills** | 自动将 GitHub 仓库转换为 Claude skill 的工具 |
 | **template-skill** | 创建新 skill 的模板 |
+| **backup-skills** | 自动化备份所有 skills 到 GitHub 仓库 |
 
 ### 💻 开发工作流类 (Superpowers)
 
