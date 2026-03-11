@@ -1,6 +1,6 @@
-# Claude Skills 备份仓库
+# Claude Skills 仓库
 
-本仓库用于备份本地 Claude Code 的 skills，防止意外丢失。
+本仓库用于备份和管理本地 Claude Code 的 skills，防止意外丢失。
 
 ## 快速备份
 
@@ -10,9 +10,9 @@
 
 ---
 
-## Skills 分类
+## Skills 分类（共 34 个）
 
-### 📄 文档处理类
+### 📄 文档处理类（4个）
 
 | Skill | 用途 |
 |-------|------|
@@ -21,7 +21,7 @@
 | **xlsx** | Excel 电子表格创建、编辑、公式计算和数据分析 |
 | **pdf** | PDF 工具包，支持表单填充、文本提取、合并拆分等 |
 
-### 📝 Obsidian 专属类
+### 📝 Obsidian 专属类（3个）
 
 | Skill | 用途 |
 |-------|------|
@@ -29,22 +29,22 @@
 | **obsidian-bases** | 创建和编辑 Obsidian 数据库 (.base) 文件 |
 | **json-canvas** | 创建和编辑 Obsidian Canvas 可视化文件 |
 
-### 🛠️ Skill 管理类
+### 🛠️ Skill 管理类（10个）
 
 | Skill | 用途 |
 |-------|------|
-| **skill-creator** | 创建新 skill 的指南和工具 |
-| **skill-manager** | GitHub-based skills 生命周期管理器 |
+| **skill-creator** | 创建新 skill 的官方指南和工具（Anthropic 官方） |
+| **skill-manager** | GitHub-based skills 生命周期管理器，检查更新和版本控制 |
 | **skill-evolution-manager** | 根据对话反馈持续演进和优化现有 skills |
-| **github-to-skills** | 自动将 GitHub 仓库转换为 Claude skill 的工具 |
-| **skill-from-github** | 从 GitHub 仓库获取并转换为 Claude skill |
-| **skill-from-masters** | 从大师学习的综合技能，包含方法论数据库和技能分类法 |
-| **skill-from-notebook** | 将 Jupyter notebooks 转换为 Claude skills |
-| **search-skill** | 搜索功能和信息检索技能 |
+| **github-to-skills** | 自动将 GitHub 仓库转换为 skill 包装器（含元数据追踪） |
+| **skill-from-github** | 从 GitHub 高质量项目学习并创建 skill（学习方法论） |
+| **skill-from-masters** | 从领域大师学习，包含方法论数据库和技能分类法（最全面） |
+| **skill-from-notebook** | 从文档/示例/Jupyter notebooks 提取方法论创建 skill |
+| **search-skill** | 从可信市场搜索和推荐 Claude Code skills |
 | **template-skill** | 创建新 skill 的模板 |
 | **backup-skills** | 自动化备份所有 skills 到 GitHub 仓库 |
 
-### 💻 开发工作流类 (Superpowers)
+### 💻 开发工作流类 - Superpowers（14个）
 
 | Skill | 用途 |
 |-------|------|
@@ -63,17 +63,35 @@
 | **using-superpowers** | 技能系统使用指南 |
 | **writing-skills** | 创建新技能的最佳实践 |
 
-### 🔧 开发工具类
+### 🔧 开发工具类（2个）
 
 | Skill | 用途 |
 |-------|------|
 | **changelog-generator** | 从 Git 提交记录自动生成用户友好的变更日志 |
 | **coding-standards-checker** | 甘草云 HIS 系统代码规范检查器，确保模块边界和架构合规 |
 
-### 💰 投资工具类
+### 💰 投资工具类（1个）
 
 | Skill | 用途 |
 |-------|------|
 | **duan-yongping-invest-skill** | 段永平风格投资备忘录生成器，基于好生意+好人+好价格评估 |
 
-**最后更新**: 2026-02-03
+---
+
+## Skill 管理类详解
+
+Skill 管理类包含多个功能各异的工具，以下是选择指南：
+
+| 需求 | 推荐 Skill |
+|------|-----------|
+| 创建新 skill | `skill-creator`（官方指南）或 `skill-from-masters`（大师方法论） |
+| 从 GitHub 项目学习 | `skill-from-github`（学习方法）或 `github-to-skills`（包装工具） |
+| 从文档/示例学习 | `skill-from-notebook` |
+| 搜索现有 skills | `search-skill` |
+| 管理/更新 skills | `skill-manager` |
+| 持续改进 skills | `skill-evolution-manager` |
+| 备份 skills | `backup-skills` |
+
+---
+
+**最后更新**: 2026-03-11
