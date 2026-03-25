@@ -169,4 +169,24 @@ Skill 管理类包含多个功能各异的工具，以下是选择指南：
 
 ---
 
-**最后更新**: 2026-03-24
+## 🆕 MiniMax Skills（11个）
+
+来自 [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) 官方仓库。
+
+| Skill | 用途 |
+|-------|------|
+| **frontend-dev** | 全栈前端开发：UI设计、动画(Framer Motion/GSAP)、AI媒体生成(MiniMax API)、说服性文案、生成艺术(p5.js/Three.js) |
+| **fullstack-dev** | 全栈后端架构：REST API、认证(JWT/OAuth)、实时功能(SSE/WebSocket)、数据库集成、生产加固 |
+| **android-native-dev** | Android 原生开发：Kotlin/Jetpack Compose、Material Design 3、自适应布局、无障碍、性能优化 |
+| **ios-application-dev** | iOS 应用开发：UIKit/SnapKit/SwiftUI、触摸目标、安全区域、导航模式、Apple HIG 合规 |
+| **shader-dev** | GLSL 着色器技术：光线步进、SDF建模、流体模拟、粒子系统、程序化生成、ShaderToy兼容 |
+| **gif-sticker-maker** | 将照片转换为4个动画GIF贴纸，Funko Pop/Pop Mart风格，使用MiniMax图像视频API |
+| **minimax-pdf** | PDF生成、填充、重格式化，15种封面风格，印刷级输出，基于令牌的设计系统 |
+| **pptx-generator** | PPT生成、编辑、读取：PptxGenJS创建、XML工作流编辑、markitdown提取 |
+| **minimax-xlsx** | Excel文件操作：创建、读取、分析、编辑、验证(.xlsx/.xlsm/.csv/.tsv)，零格式丢失 |
+| **minimax-docx** | DOCX文档创建、编辑、格式化，使用OpenXML SDK (.NET)，支持XSD验证 |
+| **minimax-multimodal-toolkit** | MiniMax多模态API统一入口：TTS语音、音乐、视频、图像生成，FFmpeg媒体处理 |
+
+---
+
+**最后更新**: 2026-03-25
